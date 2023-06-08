@@ -1,0 +1,26 @@
+{
+  "name": "02---mysql-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "zod": "^3.20.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/multer": "^1.4.7"
+  }
+}
